@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blendream Studios | Home</title>
-			  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
         body {
             background-image: url(images/sutajio-desktop.png);
@@ -34,8 +34,13 @@
         .hd {
             font-size: 16px;
             color: #5b63f8;
-            text-align: center;
-            padding-top: 20px;
+            /* 使用 Flexbox 实现垂直和水平居中 */
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+            height: 30px; /* 设置 header 高度 */
+            backdrop-filter: blur(10px); /* 模糊效果 */
+            background-color: rgba(255, 255, 255, 0.3); /* 半透明白色背景 */
         }
 
         a {
@@ -50,8 +55,14 @@
 </head>
 <body>
 <header class="hd">
-        <a href="index.html">首页</a>
-    </header>
-<div><a href="https://space.bilibili.com/277750003"><img src="images/bilibili.png" width="32" height="32" draggable="false" alt="bilibili"/></a></div>
+    <a href="index.html">首页</a>
+</header>
+<div style="position: fixed; bottom: 20px; right: 20px;">
+    <a href="https://space.bilibili.com/277750003" target="_blank">
+        <img src="images/bilibili.png" width="32px" height="32px" draggable="false" alt="bilibili"/>
+    </a>
+</div>
 </body>
+<footer class="hd">
+</footer>
 </html>
