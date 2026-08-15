@@ -1,2 +1,2 @@
 # Pages
-MC-MyGO-Server - Pages Repository
+Bitterneed-Studios - Pages Repository
