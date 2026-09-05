@@ -1,68 +1,30 @@
-<!doctype html>
-<html lang="zh-cn">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blendream Studios | Home</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>My SEKAI 服务器 群302766075</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            background-image: url(images/sutajio-desktop.png);
+            min-height: 100vh;
+            width: 100vw;
+
+            background-image: url('images/bg.png');
+
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            margin: 0;
-            height: 100vh;
-            font-family: "HarmonyOS Sans SC Medium", sans-serif;
-        }
-
-        /* 竖屏模式（手机） */
-        @media (orientation: portrait) {
-            body {
-                background-image: url(images/sutajio-mobile.png);
-            }
-        }
-
-        /* 或者按屏幕宽度适配 */
-        @media (max-width: 768px) {
-            body {
-                background-image: url(images/sutajio-mobile.png);
-            }
-        }
-
-        .hd {
-            font-size: 16px;
-            color: #5b63f8;
-            /* 使用 Flexbox 实现垂直和水平居中 */
-            display: flex;
-            justify-content: center; /* 水平居中 */
-            align-items: center; /* 垂直居中 */
-            height: 30px; /* 设置 header 高度 */
-            backdrop-filter: blur(10px); /* 模糊效果 */
-            background-color: rgba(255, 255, 255, 0.3); /* 半透明白色背景 */
-        }
-
-        a {
-            color: #5b63f8;
-            text-decoration: none;
-        }
-
-        a:hover {
-            opacity: 0.8;
         }
     </style>
 </head>
 <body>
-<header class="hd">
-    <a href="index.html">首页</a>
-</header>
-<div style="position: fixed; bottom: 20px; right: 20px;">
-    <a href="https://space.bilibili.com/277750003" target="_blank">
-        <img src="images/bilibili.png" width="32px" height="32px" draggable="false" alt="bilibili"/>
-    </a>
-</div>
+
 </body>
-<footer class="hd">
-</footer>
 </html>
